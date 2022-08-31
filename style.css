@@ -1,0 +1,60 @@
+ body{
+    background: url(img/ciudad.jpg) no-repeat center;
+    margin: 0;
+    background-size: cover; 
+    min-height: 100vh;
+}
+
+header{
+    background: black;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin: 0;
+    color: white;
+}
+main{
+    width: 80rem;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, .7);
+    display: flex;
+    gap: 30px;
+}
+
+#imagen{
+    width: 200px;
+}
+
+#palabra-adivinar{
+    height: 3em;
+}
+
+#palabra-adivinar span{
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block; /*sin esto, por ser un elemento de linea, no tomaria el width*/
+
+}
+
+#letras{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px;
+
+}
+
+#letras button{
+    margin: auto;
+    width: 28px;
+    padding: 6px 0;
+    text-align: center;
+
+}
